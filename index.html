@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <!-- ESTILIZANDO A TABELA -->
+     <style>
+        table,th,td{
+            border: 1px solid black;
+        }
+     </style>
+
+</head>
+<body>
+    <!-- A tag <table> é usada para criar tabelas -->
+    <table>   
+        <tr>
+          <th>Nome</th>
+          <th>Idade</th>
+          <th>Profissão</th>
+        </tr>
+
+        <tr>
+            <td>João</td>
+            <td>25</td>
+            <td>Estudante</td>
+        </tr>
+
+        <tr>
+            <td>Maria</td>
+            <td>22</td>
+            <td>Medica</td>
+        </tr>
+    </table>
+
+
+    <!-- ATRIBUTOS QUE PODEM SER UTILIZADOS NO <td> PARA DEFINIR A QUANTIDADE DE COLUNAS A SEREM OCUPADAS -->
+    <!-- Colspan = " " -->
+    <br>
+
+    <table>
+        <tr>
+            <th>informações</th>
+            <th>informações</th>
+            <th>informações</th>
+            <th>informações</th>
+            <th>informações</th>
+            <th>informações</th>
+        </tr>
+
+        <tr>
+        <td>222222</td>
+        <td colspan="3">7777777</td>
+        <td>0000000</td>
+        <td>11111111111</td>
+        </tr>
+
+
+    </table>
+
+
+    <!-- ATRIBUTOS QUE PODEM SER UTILIZADOS NO <td> PARA DEFINIR A QUANTIDADE DE LINHAS A SEREM OCUPADAS -->
+    <!-- rowspan = " " -->
+
+    <br>
+
+    <table>
+        <tr>
+            <th>informações</th>
+            <th>informações</th>
+            <th>informações</th>
+            <th>informações</th>
+            <th>informações</th>
+            <th>informações</th>
+        </tr>
+
+        <tr>
+          <td>222222</td>
+          <td rowspan="3">7777777</td>
+          <td>0000000</td>
+          <td>11111111111</td>
+        </tr>
+
+        <tr>
+          <td>222222</td>
+          <td >7777777</td>
+          <td>0000000</td>
+          <td>11111111111</td>
+        </tr>
+
+        <tr>
+            <td>222222</td>
+            <td >7777777</td>
+            <td>0000000</td>
+            <td>11111111111</td>
+        </tr>
+            
+        <tr>
+            <td>222222</td>
+            <td >7777777</td>
+            <td>0000000</td>
+            <td>11111111111</td>
+        </tr>
+            
+        
+    </table>
+
+
+    <br>
+
+
+    <!-- OUTRA FORMA DE ESCREVER TABELAS E USANDO <thead> E O <tbody> -->
+
+    <!-- FACILITA NA HORA DE ESTILIZAR E NA HORA DE USAR O JS-->
+
+
+       <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+              </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>25</td>
+                <td>Estudante</td>
+            </tr>
+    
+            <tr>
+                <td>Maria</td>
+                <td>22</td>
+                <td>Medica</td>
+            </tr>
+
+        </tbody>
+       </table>
+    
+</body>
+</html>
